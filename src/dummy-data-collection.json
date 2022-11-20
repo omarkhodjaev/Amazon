@@ -1,0 +1,57 @@
+[
+    {
+        "title": "Shop activity trackers and smartwatches",
+        "image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_SmartWatch_1X._SY304_CB639922137_.jpg",
+        "linkLabel": "Shop now",
+        "linkURL": "/login"
+    },
+
+    {
+        "title": "For your Fitness Needs",
+        "image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Fitness_1X._SY304_CB639748186_.jpg",
+        "linkLabel": "Shop now",
+        "linkURL": "/login"
+    },
+
+    {
+        "title": "Shop Laptops & Tablets",
+        "image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Laptops_379x304_1X_en_US._SY304_CB418608471_.jpg",
+        "linkLabel": "See more",
+        "linkURL": "/login"
+    },
+
+    {
+        "title": "Shop Pet supplies",
+        "image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Pets_1X._SY304_CB639746743_.jpg",
+        "linkLabel": "See more",
+        "linkURL": "/login"
+    },
+
+    {
+        "title": "Create with strip lights",
+        "image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_StripLighting_379x304_1X_en_US._SY304_CB418597476_.jpg",
+        "linkLabel": "Shop now",
+        "linkURL": "/login"
+    },
+
+    {
+        "title": "For your Fitness Needs",
+        "image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Fitness_1X._SY304_CB639748186_.jpg",
+        "linkLabel": "Shop now",
+        "linkURL": "/login"
+    },
+
+    {
+        "title": "Shop Laptops & Tablets",
+        "image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Laptops_379x304_1X_en_US._SY304_CB418608471_.jpg",
+        "linkLabel": "See more",
+        "linkURL": "/login"
+    },
+
+    {
+        "title": "Shop Pet supplies",
+        "image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Pets_1X._SY304_CB639746743_.jpg",
+        "linkLabel": "See more",
+        "linkURL": "/login"
+    }
+]

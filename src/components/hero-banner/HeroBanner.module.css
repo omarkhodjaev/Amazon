@@ -1,0 +1,57 @@
+.carousel{
+    display: flex;
+    width: 1440px;
+    margin: auto;
+    position: relative;
+}
+
+.carouselWrapper{
+    width: 1440px;
+    margin: auto;
+    display: flex;
+    overflow: hidden;   
+}
+
+.carouselItem{
+    width: 1440px;
+    mask-image: linear-gradient(180deg,#000 30%,#00000000);
+}
+
+.carousel__btn{
+    background: transparent;
+    width: 80px;
+    border: none;
+    font-size: 30px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    /* transform: translateY(-50%); */
+    z-index: 2;
+}
+
+.carousel__btn[data-btn-type='left']{
+    left: 0;
+}
+
+.carousel__btn[data-btn-type='right']{
+    right: 0;
+}
+
+.dots{
+    display: flex;
+    position: absolute;
+    bottom: 260px;
+    left: 50%;
+    gap: 0 10px;
+    transform: translateX(-50%);
+}
+
+
+.dot{
+    transition: 0.5s;
+    width: 10px;
+    height: 10px;
+    background-color: cadetblue;
+    border-radius: 50%;
+    cursor: pointer;
+}
