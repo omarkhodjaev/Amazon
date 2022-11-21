@@ -1,0 +1,9 @@
+.miniHeader{
+    width: 100%;
+    min-height: 50px;
+    background-color: #232E3E;
+  }
+
+.miniHeader__menu{
+  display: flex;
+}

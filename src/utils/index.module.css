@@ -1,0 +1,20 @@
+.backtotop{
+    padding: 20px 0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    background-color: #37475A;
+    margin-top: 20px;
+  }
+  
+  .overlay{
+    min-width: 100vw;
+    min-height: 100vh;
+    max-height: 100vh;
+    max-width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background-color: #0000008a;
+  }

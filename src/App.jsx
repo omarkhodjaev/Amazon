@@ -1,18 +1,29 @@
-import { Route } from 'react-router-dom';
 import './App.css';
-import Home from "./routes/home/Home.jsx"
-import Login from './routes/login/Login';
-
+import Header from './components/header/Header'
+import MiniHeader from './components/mini-header/MiniHeader';
+import { Backtotop, Overlay } from './utils';
+import Routes from './routes';
+import Sidebar from './components/sidebar/Sidebar';
+import { useState, useEffect } from 'react';
 
 function App() {
+  const [isSidebarActive, setIsSidebarActive] = useState(false);
+  useEffect(() => {
+    if(isSidebarActive){
+      document.body.style.overflow = "hidden"
+    }
+    else{
+      document.body.style.overflow = "auto"
+    }
+  }, [isSidebarActive])
   return (
     <div>
-      <Route exact path="/">
-        <Home/>
-      </Route>
-      <Route path="/login">
-        <Login/>
-      </Route>
+      <Header/>
+      <MiniHeader setIsSidebarActive={setIsSidebarActive}/>
+      <Sidebar isSidebarActive={isSidebarActive} setIsSidebarActive={setIsSidebarActive}/>
+      <Routes/>
+      <Backtotop/>
+      {isSidebarActive && <Overlay state={isSidebarActive} callback={setIsSidebarActive}/>}
     </div>
   );
 }

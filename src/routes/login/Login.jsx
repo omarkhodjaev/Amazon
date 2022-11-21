@@ -1,10 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Login = () => {
-    document.title = "Login"
+  document.title = "Login 🤣"
   return (
     <div>
-        <h1>LOGIN PAGE</h1>
+      <Link to="/">HOME</Link>  
+      <h1>LOGIN PAGE</h1>
     </div>
   )
 }
