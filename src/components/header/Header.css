@@ -74,10 +74,10 @@
     font-size: 18px;
 }
 
-.header__search-wrapper select{
-    min-width: 100px;
-    padding-left: 20px;
+.header__search-wrapper > select{
     border-right: 1px solid #ababab;
+    padding-left: 3px;
+
 }
 .header__search-wrapper button{
     background-color: var(--primary-yellow-color);

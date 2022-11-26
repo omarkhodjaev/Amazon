@@ -8,8 +8,10 @@ import { useState, useEffect } from 'react';
 
 function App() {
   const [isSidebarActive, setIsSidebarActive] = useState(false);
+  const [isNavbarSearchActive,setIsNavbarSearchActive] = useState(false);
+
   useEffect(() => {
-    if(isSidebarActive){
+    if(isSidebarActive || isNavbarSearchActive){
       document.body.style.overflow = "hidden"
     }
     else{
@@ -18,12 +20,13 @@ function App() {
   }, [isSidebarActive])
   return (
     <div>
-      <Header/>
+      <Header setIsNavbarSearchActive={setIsNavbarSearchActive}/>
       <MiniHeader setIsSidebarActive={setIsSidebarActive}/>
       <Sidebar isSidebarActive={isSidebarActive} setIsSidebarActive={setIsSidebarActive}/>
       <Routes/>
-      <Backtotop/>
-      {isSidebarActive && <Overlay state={isSidebarActive} callback={setIsSidebarActive}/>}
+      {isSidebarActive && <Overlay type="sidebar" state={isSidebarActive} callback={setIsSidebarActive}/> }
+      {isNavbarSearchActive && <Overlay type="navbar" state={isNavbarSearchActive} callback={setIsNavbarSearchActive}/> }
+
     </div>
   );
 }

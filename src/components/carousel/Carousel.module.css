@@ -1,0 +1,47 @@
+.Carousel__wrapper{
+    background-color: white;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 270px;
+}
+
+.line__flex{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.Carousel__item{
+    display: flex;
+    gap:  10px;
+    margin-top: 8px;
+    overflow: auto;
+    width: 100%;
+}
+
+.leftBtn{
+    position: absolute;
+    height: 100px;
+    width: 40px;
+    font-size: 30px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    box-shadow: 0 1px 3px #888;
+    opacity: .5;
+}
+
+.rightBtn{
+    position: absolute;
+    height: 100px;
+    width: 40px;
+    font-size: 30px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 3px 0px 0px 3px;
+    box-shadow: 0 1px 3px #888;
+    opacity: .5;
+    right: 0;
+}

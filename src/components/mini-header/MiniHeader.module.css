@@ -1,9 +1,30 @@
 .miniHeader{
     width: 100%;
-    min-height: 50px;
+    min-height: 40px;
     background-color: #232E3E;
   }
 
 .miniHeader__menu{
   display: flex;
+  color: #fff;
+  height: 40px;
+  font-size: 17px;
+  font-weight: 450;
+  list-style: none;
+  padding: 3px 7px;
+}
+
+.menu__item{
+  padding: 3px 7px;
+  display: flex;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 20px;
+  white-space: nowrap;
+}
+
+.menu__item:hover{
+  border: 1px solid #fff;
 }

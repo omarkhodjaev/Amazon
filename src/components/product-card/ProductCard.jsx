@@ -6,7 +6,7 @@ import { v4 as uuidv4 } from 'uuid';
 const ProductCard = ({image, title, linkLabel, linkURL}) => {
   return (
     <div className={c["product-card"]}>
-      <h1 className={c.ProductCardTitle}>{title}</h1>
+      <h2>{title}</h2>
         {
           typeof image === "string" ?
             <img className={c.productCardImage} src={image} alt="" />

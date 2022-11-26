@@ -19,10 +19,12 @@ const Backtotop = () => {
   )
 }
 
-const Overlay = ({callback}) => {
+const Overlay = ({callback,type}) => {
   return(
-    <div onClick={() => {callback(false)}} className={c.overlay}></div>  
+    <div onClick={() => {callback(false)}} className={c.overlay} style={type == "navbar" ? {top: '100px'} : null }></div>  
   )
 }
+
+
 
 export { Backtotop, Overlay } 
