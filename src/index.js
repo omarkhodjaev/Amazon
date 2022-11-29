@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
+import "./locales/i18next";
 import { BrowserRouter } from "react-router-dom";
 
 //  component,  onclick, props, react hooks (useState, useEffect,  useRef);

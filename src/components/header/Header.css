@@ -77,7 +77,6 @@
 .header__search-wrapper > select{
     border-right: 1px solid #ababab;
     padding-left: 3px;
-
 }
 .header__search-wrapper button{
     background-color: var(--primary-yellow-color);
@@ -87,17 +86,20 @@
     cursor: pointer;
 }
 
+
 .header__language-wrapper{
     display: flex;
     align-items: center;
     cursor: pointer;
     margin: 0 10px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    border: none;
 }
 
-.header__language-wrapper > img{
-    width: 30px;
-    height: 20px;
-    margin-right: 3px;
+.header__language-wrapper > option{
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .account__list, .cart__link{
