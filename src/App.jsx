@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './components/header/Header'
 import MiniHeader from './components/mini-header/MiniHeader';
-import { Backtotop, Overlay } from './utils';
+import { Overlay } from './utils';
 import Routes from './routes';
 import Sidebar from './components/sidebar/Sidebar';
 import { useState, useEffect } from 'react';
@@ -26,7 +26,6 @@ function App() {
       <Routes/>
       {isSidebarActive && <Overlay type="sidebar" state={isSidebarActive} callback={setIsSidebarActive}/> }
       {isNavbarSearchActive && <Overlay type="navbar" state={isNavbarSearchActive} callback={setIsNavbarSearchActive}/> }
-
     </div>
   );
 }

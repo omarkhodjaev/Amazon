@@ -6,6 +6,8 @@ const Explore = () => {
 
   const [productData, setProductData] = useState([]);
 
+  
+
   useEffect(() => {
     fetch("https://fakestoreapi.com/products")
       .then(response => response.json())

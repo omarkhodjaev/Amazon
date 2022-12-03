@@ -14,13 +14,9 @@ function Header({setIsNavbarSearchActive}) {
 
   const { i18n } = useTranslation();
 
-  const [changeLanguage, setChangeLanguage] = useState()
-
-  const [activeLanguage,setActiveLanguage] = useState();
 
   const langs = [
     "uz", 
-    "ru",
     "en"
   ]
   
@@ -67,7 +63,7 @@ function Header({setIsNavbarSearchActive}) {
         }
       </select>
 
-      <a className="account__list" href="/">
+      <a className="account__list" href="/signup">
         <div className="list__wrapper">
           <p>{t("Sign in")}</p>
           <h3>
