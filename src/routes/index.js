@@ -4,6 +4,7 @@ import Login from './login/Login';
 import Home from './home/Home';
 import Explore from './explore/Explore';
 import Pdp from './pdp/Pdp';
+import SignUp from './signup/SignUp';
 
 const index = () => {
   return (
@@ -14,6 +15,10 @@ const index = () => {
 
       <Route path="/login">
         <Login />
+      </Route>
+
+      <Route path="/signup">
+        <SignUp/>
       </Route>
 
       <Route exact path="/explorenow">

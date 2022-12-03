@@ -29,9 +29,6 @@ function Header({setIsNavbarSearchActive}) {
   }
 
 
-  console.log(localStorage.getItem("lang"));
-
-
   return (
     <header className="main-header">
       <div className="header__logo-wrapper">
