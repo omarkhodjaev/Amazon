@@ -42,7 +42,6 @@ const Login = () => {
   return (
     <div>
         <div className={c.signup__wrapper}>
-          <Link to={"/"}>HOME</Link>
           <form onSubmit={loginUser} className={c.form}>
               <h3>Login Your account</h3>
               <input placeholder='Email' type="email" required onChange={e => {setEmail(e.target.value)}} />
